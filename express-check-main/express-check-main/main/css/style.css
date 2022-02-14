@@ -1,0 +1,36 @@
+a {
+  margin-left: 20px;
+  font-size: 2em;
+}
+
+dl {
+  font-size: 1.5em;
+}
+
+dt {
+  color: rgb(32, 19, 44);
+  font-weight: bold;
+}
+
+a {
+  margin-left: 20px;
+  font-size: 2em;
+}
+
+main {
+  margin-left: 20px;
+}
+body {
+  background-size: cover;
+}
+body::after {
+  content: "";
+  position: absolute;
+  height: 190vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: -1;
+  opacity: 0.8;
+}
